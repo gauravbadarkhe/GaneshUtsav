@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.alphabeta.acer.ganeshutsav.selectlanguage"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:text="Select Language"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:gravity="center_horizontal"/>
+
+   <LinearLayout
+       android:visibility="invisible"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center"
+       android:orientation="vertical">
+       <Button
+           android:id="@+id/btn_english"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="English"
+           android:layout_gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/btn_hindi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Hindi"
+           android:layout_gravity="center_horizontal"/>
+
+       <Button
+           android:id="@+id/btn_marathi"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Marathi"
+           android:layout_gravity="center_horizontal"/>
+   </LinearLayout>
+
+
+</LinearLayout>

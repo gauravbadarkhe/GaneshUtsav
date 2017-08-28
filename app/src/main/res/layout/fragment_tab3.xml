@@ -1,0 +1,225 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="layout.tab3"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_1"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z1"
+
+            android:padding="8dp"
+            android:text="LAXMI NAGAR ZONE1 OFFICER - MR.BOKARE"
+            android:textColorLink="@color/common_google_signin_btn_text_dark_disabled"
+            android:textSize="12sp" />  <!-- text(LAXMI NAGAR ZONE1 OFFICER - MR.BOKARE) in hindi & marathi - लष्मीनागर झोन १ अधिकारी - श्री बोकारे  -->
+
+        <Button
+            android:id="@+id/btn_2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+
+
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z2"
+            android:padding="8dp"
+            android:text="DHARAMPETH ZONE2 OFFICER - MR.TEMBHEKAR"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" />  <!-- text(DHARAMPETH ZONE2 OFFICER - MR.TEMBHEKAR) in hindi & marathi - धरमपेठ झोन २ अधिकारी - श्री टेमभेकर   -->
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="90dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_3"
+
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+
+
+            android:background="#ef6c00"
+            android:onClick="z3"
+            android:padding="8dp"
+            android:text="HANUMAN NAGAR ZONE3 OFFICER - MR.KALLODE"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" /> <!-- text(HANUMAN NAGAR ZONE3 OFFICER - MR.KALLODE) in hindi & marathi -  हनुमान नगर झोन ३ अधिकारी - श्री कलोडे -->
+
+        <Button
+
+            android:id="@+id/btn_4"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+
+            android:onClick="z4"
+            android:padding="25dp"
+            android:text="DHANTOLI ZONE4 OFFICER - MR.GAIKWAD"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" /> <!-- text(DHANTOLI ZONE4 OFFICER - MR.GAIKWAD) in hindi & marathi -  धंतोली झोन ४ अधिकारी - श्री गायकवाड -->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="175dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_5"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z5"
+            android:padding="8dp"
+            android:text="NEHRU NAGAR ZONE5 OFFICER - MR.GORE"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" /> <!-- text(NEHRU NAGAR ZONE5 OFFICER - MR.GORE) in hindi & marathi -   नेहरू नगर झोन 5 अधिकारी - श्री गोरे  -->
+
+        <Button
+            android:id="@+id/btn_6"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z6"
+
+            android:padding="8dp"
+            android:text="GANDHIBAGH ZONE6 OFFICER - MR.BAMBODE"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" /> <!-- text(GANDHIBAGH ZONE6 OFFICER - MR.BAMBODE) in hindi & marathi -   गांधीबाग झोन ६ अधिकारी - श्री बामबोडे  -->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="260dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_7"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+
+            android:onClick="z7"
+            android:text="SATARANJIPURA ZONE7 OFFICER - MR.RAJURKAR"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" /> <!-- text(SATARANJIPURA ZONE7 OFFICER - MR.RAJURKAR) in hindi & marathi -   सतरंजीपूर झोन 7 अधिकारी - श्री राजुरकर -->
+
+        <Button
+            android:id="@+id/btn_8"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z8"
+            android:padding="25dp"
+
+            android:text="LAKADGANJ ZONE8 OFFICER - MR.ATRAM"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" /> <!-- text(LAKADGANJ ZONE8 OFFICER - MR.ATRAM) in hindi & marathi -   लकडगंज झोन 8 अधिकारी - श्री अत्राम  -->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="345dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_9"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z9"
+
+            android:padding="25dp"
+            android:text="ASHI NAGAR ZONe9 OFFICER - MR.RANGARI"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" />  <!-- text(ASHI NAGAR ZONe9 OFFICER - MR.RANGARI) in hindi & marathi -   आशी नगर झोन ९ अधिकारी - श्री रंगारी   -->
+
+        <Button
+            android:id="@+id/btn_10"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="#ef6c00"
+            android:onClick="z10"
+            android:padding="8dp"
+
+            android:text="MANGALWARI ZONE10 OFFICER - MR.PATIL"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="12sp" />    <!-- text(MANGALWARI ZONE10 OFFICER - MR.PATIL) in hindi & marathi -   मंगलवारी झोन १० अधिकारी - श्री पाटील  -->
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+</FrameLayout>

@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+
+    android:orientation="vertical"
+
+    tools:context="layout.tab2">
+
+    <!--   android:background="@drawable/howtouse4"  android:gravity="bottom|center_horizontal" android:layout_gravity="bottom" TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_tanker"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/tank"
+            android:onClick="at"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="100dp"
+            android:src="@drawable/icon"
+            android:text="Artificial Tank
+for idol visarjan"
+            android:textColorLink="?android:attr/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:visibility="visible" /> <!--  text(Artificial Tank for idol visarjan)in hindi - मूर्ति विसर्जन के लिए कृत्रिम टैंक    in marathi - मूर्ती विरंजनसाठी कृत्रिम तलाव-->
+
+        <Button
+            android:id="@+id/btn_lakes"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/artifi"
+            android:onClick="lob"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="100dp"
+            android:text="Lakes for
+idol visarjan"
+            android:textSize="18sp"
+            android:textStyle="italic" /> <!--  text(Lakes for idol visarjan)in hindi - मूर्ति विसर्जन के लिये झील   in marathi - मूर्ती विरंजन साठी तलाव -->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_nmc"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/nmc"
+            android:onClick="zo"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="100dp"
+            android:text="NMC Zone
+Office"
+            android:textSize="18sp"
+            android:textStyle="italic" /> <!--  text(NMC Zone Office)in hindi - NMC झोन ऑफिस      in marathi - NMC झोन ऑफिस   -->
+
+        <Button
+            android:id="@+id/btn_police"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/police"
+            android:onClick="ps"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="100dp"
+            android:text="Police
+Stations"
+            android:textSize="18sp"
+            android:textStyle="italic" />  <!--  text(Police Stations)in hindi - पोलीस स्टेशन       in marathi - पोलीस स्टेशन    -->
+
+    </LinearLayout>
+</FrameLayout>
