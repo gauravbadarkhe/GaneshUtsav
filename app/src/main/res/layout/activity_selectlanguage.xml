@@ -13,6 +13,7 @@
         android:layout_height="41dp"
         android:text="Select Language"
         android:textSize="18sp"
+        android:visibility="invisible"
         tools:layout_editor_absoluteX="126dp"
         tools:layout_editor_absoluteY="119dp"
         android:gravity="center_horizontal"/>

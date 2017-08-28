@@ -14,14 +14,16 @@
     -->
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/icon"
+        android:icon="@drawable/icon"
         android:label="Moryaa"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".SplashScreen"
+            android:icon="@drawable/icon"
             android:label="Moryaa"
+            android:roundIcon="@drawable/icon"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
